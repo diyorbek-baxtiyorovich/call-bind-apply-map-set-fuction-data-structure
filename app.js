@@ -79,16 +79,16 @@
  structuralani bajarishimiz mumkin. */
 
 
-let comit = new Map();
+// let comit = new Map();
 
-let user1 = {name: "Jenif"};
-let user2 = {name: "Jony"};
+// let user1 = {name: "Jenif"};
+// let user2 = {name: "Jony"};
 
-comit.set(user1, {age: 20, email: "jineg@gmail.com"})
-comit.set(user2, {age: 22, email: "jogrg@gmail.com"})
+// comit.set(user1, {age: 20, email: "jineg@gmail.com"})
+// comit.set(user2, {age: 22, email: "jogrg@gmail.com"})
 
-console.log(comit);
-console.log(comit.get(user1));
+// console.log(comit);
+// console.log(comit.get(user1));
 
 
 // ------------------------
@@ -138,3 +138,38 @@ console.log(addition.size)
 
 
 
+
+
+
+// const nums = [0,1,2,3];
+
+// nums.splice(0,1)
+// nums.unshift(8)
+// console.log(nums)
+
+// JavaScriptda obyektning kalitlari har doim string turida bo'ladi. Bu obj obyektida ham shunday. Hatto kalitni qo'shtirnoq ichida ko'rsatmaysizmi yoki raqam sifatida yozasizmi, JavaScript avtomatik ravishda kalitni string turiga o'zgartiradi.
+
+// const obj = {
+//     a : 1,
+//     b : 2,
+//     c : 5,
+//     "a" : 4,
+//     b :3
+// }
+
+// console.log(obj)                                                
+
+// Bu ifodada "hello" qatoriga mantiqiy NOT operatori (!) qo'llanilmoqda.
+
+// "hello" JavaScriptda truthy qiymat bo'lib, bu true deb qaraladi.
+// ! operatori esa qiymatni true dan false ga aylantiradi.
+
+
+// console.log(!"hello")
+
+
+// Bu ifodada + operatori false qiymatini raqamga o'zgartirish uchun ishlatilmoqda.
+// JavaScriptda false qiymati raqam sifatida 0 ga teng.
+// + operatori esa false ni avtomatik ravishda raqamga aylantiradi.
+
+// console.log(+false)
