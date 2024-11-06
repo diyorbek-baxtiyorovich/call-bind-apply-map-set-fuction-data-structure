@@ -33,24 +33,24 @@
 // user.great();
 
 
-const actions = {
-    mySup(yiban) {
-        console.log(yiban + "my name is " + this.name)
-    },
-    mySab() {
-        console.log("my age is " + this.age)
-    }
-};
+// const actions = {
+//     mySup(garbek) {
+//         console.log(yiban + "my name is " + this.name)
+//     },
+//     mySab() {
+//         console.log("my age is " + this.age)
+//     }
+// };
 
-const users = [
-    {name: "Kenzo", age: 33},
-    {name: "Mkadir", age : 100}
-];
+// const users = [
+//     {name: "Kenzo", age: 33},
+//     {name: "Mkadir", age : 100}
+// ];
 
-users.forEach((user => {
-    actions.mySup.call(user, "hey what's up ")
-    actions.mySab.call(user)
-}));
+// users.forEach((user => {
+//     actions.mySup.call(user, "hey what's up ")
+//     actions.mySab.call(user)
+// }));
 
 // const a = actions.mySup.call(users[0])
 // console.log(a)
@@ -78,18 +78,17 @@ users.forEach((user => {
 /* Obektlarda bajarilishi mumkin yani ularni bog'lash va qo'shish kabi qiymatlarni bajarisha key orqali yoki tuli xildagi 
  structuralani bajarishimiz mumkin. */
 
- /*
-let users = new Map();
+
+let comit = new Map();
 
 let user1 = {name: "Jenif"};
 let user2 = {name: "Jony"};
 
-users.set(user1, {age: 20, email: "jineg@gmail.com"})
-users.set(user2, {age: 22, email: "jogrg@gmail.com"})
+comit.set(user1, {age: 20, email: "jineg@gmail.com"})
+comit.set(user2, {age: 22, email: "jogrg@gmail.com"})
 
-console.log(users);
-console.log(users.get(user1));
-*/
+console.log(comit);
+console.log(comit.get(user1));
 
 
 // ------------------------
@@ -135,3 +134,7 @@ console.log(addition.size)
 // console.log(funyTy(user));
 
 // console.log(catchet.has(user));
+
+
+
+
