@@ -35,7 +35,7 @@
 
 // const actions = {
 //     mySup(garbek) {
-//         console.log(yiban + "my name is " + this.name)
+//         console.log(garbek + "my name is " + this.name)
 //     },
 //     mySab() {
 //         console.log("my age is " + this.age)
